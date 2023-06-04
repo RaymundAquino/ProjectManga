@@ -1,0 +1,163 @@
+body {
+  background-image: url("uwp2499113.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.navbar {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  background: rgba(51, 47, 47, 0.8) !important;
+}
+
+.navbar a:hover {
+  background-image: url("uwp2499113.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: white;
+  color: black !important;
+
+  border-radius: 200px 0 200px 0;
+}
+
+.navbar .navbar-nav .nav-link {
+  padding-left: 20px;
+}
+
+.Head-content img{
+  border-radius: 100px 0 100px 0;
+}
+
+.Head-content{
+margin-top: 100px;  
+margin-bottom: 200px;
+}
+
+.Head-content h5 {
+  font-size: 40px;
+  color: black;
+}
+
+.Head-content h5 {
+  margin-bottom: 50px;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.Head-content p {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  color: black;
+}
+
+.About-me-img img{
+  border-radius: 300px 0 300px 0;
+}
+
+span {
+  color: brown;
+  font-size: 40px;
+  font-weight: bolder;
+  text-shadow: black;
+}
+
+.modal-header{
+  background-image: url("uwp2499113.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.modal-content{
+  background-image: url("uwp2499113.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.modal-footer {
+  background-image: url("uwp2499113.jpeg"); 
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
+#img1 {
+    transition: 1s ease;
+}
+
+
+#img1 :hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#footer {
+    top: 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(51, 47, 47, 0.8);
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+  }
+  .Portbot {
+    display: inline-block;
+    margin-bottom: 100px;
+    margin-top: 10px;
+  }
+
+  .card {
+    background-image: url("b4.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  ul{
+    list-style: none;
+  }
+  
+  .fa-facebook {
+    background: #3b5998;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    color: white;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.css">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+    <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="about.css">
+    <script src="https://kit.fontawesome.com/b6b74558e9.js" crossorigin="anonymous"></script>
+
+
+
+
+    <title>Document</title>
+</head>
+    <body>
+
+        <!----------------------------Start of Nav Bar-------------------------------------------------->
+        <nav  class="navbar navbar-expand-lg fixed-top" >
+          <div class="container-fluid nav-logo">
+              <img src="images/crystal-tec-long-white.png" alt="" style="height: 50px; width: 200px;">
+              <button
+                  class="navbar-toggler"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarToggler">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+          <div class="collapse navbar-collapse" id="navbarToggler">
+              <ul class="navbar-nav navlist-margin mx-auto me-5" >
+                  <li class="nav-item d-flex justify-content-between p-3 ">
+                      <a class="nav-link active text-light" aria-current="page" href="index.html"
+                      >HOME</a>
+                  </li>
+
+                  <li class="nav-item p-3">
+                      <a class="nav-link active text-light " aria-current="page" href="about.html"
+                      >About Us</a>
+                      </li>
+                  <li class="nav-item p-3">
+                  <a class="nav-link active text-light " aria-current="page" href="#"
+                  >Our Services</a>
+                  </li>    
+
+
+                  <li class="nav-item p-3">
+                  <a class="nav-link active text-light " aria-current="page" href="#"
+                  >Our Clients</a>
+                  </li>
+                  <li class="nav-item p-3">
+                  <a class="nav-link active text-light " aria-current="page" href="#"
+                  >Contact Us</a>
+                  </li>
+                  <li class="nav-item p-3">
+                      <button class="btn btn-info text-light " type="submit">CLIENT PORTAL</button>
+                  </li>
+              </div>
+          </div>
+      </nav> 
+  <!----------------------------------------End of Nav Bar------------------------------------------->
+
+    <!----------------------------------------Start of Hero Section------------------------------------------->
+    <section class="hero_background">
+      <!-- <video autoplay loop muted >
+        <source src="images/hero_video.mov">
+      </video> -->
+      <div class="hero-background_banner">
+
+    </div>
+
+    </section>
+    <div class="hero-des">
+      <h1>
+        YOU FOCUS BUSINESS GROWTH, <br>
+        WE TAKE CARE OF YOUR TECHNOLOGY
+      </h1>
+      <button class="btn btn-info text-light btn-lg mt-5 custom-button ">Get Started!</button>
+    </div>
+
+
+    <!----------------------------------------End of Hero Section------------------------------------------->
+    <!---------------------------------------Start of About us---------------------------------------------->
+    <div class="aboutbg">
+
+
+        <h1>About Us</h1>
+        <p class="about-us_p">Crystal Tec is an IT Managed Service Provider specializing in Windows server, Network maintenance, Cyber Security and Cloud Computing Hosted Services.
+            <br>
+            <br>    
+            The company has been operating since 2002 and our offices are located in Bayron Bay & Gold Coast. 
+            <br>
+            <br>
+            At Crystal Tec, we can provide your business with the latest Information Technology solutions to help your business grow. We are committed to providing you with only the best technology and the right solution so you can achieve your goals and realize your business full potential.
+            <br>
+            <br>
+            With our IT Managed Service, you do not have to worry about taking care of your company’s IT infrastructure. We have the expertise to handle it for you, so you can focus on what you do best growing your business.
+        </p>
+
+
+
+        <h2>Our Core Values</h2>
+
+        <div class="container">
+          <div class="row text-center d-flex justify-content-evenly">
+            <div class="col-md-4 ">
+              <h4>PROFESSIONALISM</h4>
+              <p>We boast a team of IT experts who display the highest level of professionalism as they look after your company’s IT infrastructure.</p>
+            </div>
+            <div class="col-md-4">
+              <h4>EXPERIENCE</h4>
+              <p>Our team is composed of experts with years of solid experience and background in the IT industry, having worked with different organizations across various industries.​</p>
+            </div>
+            <div class="col-md-8">
+              <h4>EXPERIENCE</h4>
+              <p>Our team is composed of experts with years of solid experience and background in the IT industry, having worked with different organizations across various industries.​</p>
+            </div>
+            <div class="col-md-8">
+              <h4>EXPERIENCE</h4>
+              <p>Our team is composed of experts with years of solid experience and background in the IT industry, having worked with different organizations across various industries.​</p>
+            </div>
+          </div>
+        </div>
+
+    </div>
+
+    <div></div>
+
+       <!----JS Script for Nav Bar scroll effect-->
+       <script type="text/javascript">
+        var nav = document.querySelector('nav');
+
+        window.addEventListener('scroll', function () {
+          if (window.pageYOffset > 100) {
+            nav.classList.add('bg-primary', 'shadow');
+          } else {
+            nav.classList.remove('bg-primary', 'shadow');
+          }
+        });
+      </script>
+      <!----End of JS Script for Nav Bar scroll effect-->
+    </body>
+
+
+
+    <script src="bootstrap-5.2.2-dist/js/bootstrap.bundle.js"></script>
+</html>
